@@ -205,11 +205,9 @@ h4 {
   margin-bottom: 30px;
 }
 
-.labels-row img {
-  margin: 2px;
+.labels-row img, .labels-row img:last-of-type {
+  margin: 2px 18px;
 }
-
-
 
 /*FOOTER*/
 footer {
