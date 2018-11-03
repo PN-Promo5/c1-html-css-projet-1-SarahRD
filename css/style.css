@@ -195,15 +195,15 @@ font-weight: 500;
 
 .btn-line {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .btn:nth-child(1) {
-  margin-right: 150px;
   background-color: #ffffff;
 }
 
 .btn:nth-child(2) {
-  margin-left: 150px;
   background-color: rgba(255, 255, 255, 0.4);
   color: #ffffff;
 }
@@ -415,7 +415,7 @@ h3 span {
 /*FOOTER*/
 footer {
   background-color: #b68A89;
-  height: 530px;
+  height: 550px;
 }
 
 .footer-top {
@@ -433,12 +433,13 @@ form div label {
   width: 145px;
   text-align: top;
   font-size: 1rem;
+  color:  #414141;
 }
 
 input, textarea {
   width: 400px;
   box-sizing: border-box;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -461,20 +462,39 @@ input:focus, textarea:focus {
   width: 416px;
 }
 
+input[type="text"], input[type="email"], #msg {
+  background-color: #b68A89;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #585858;
+  height: 40px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
 input.button {
-  width: 100px;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: #ffffff;
+  border-radius: 2px;
+  border: solid 2px #505050;
+  color: #414141;
+  padding: 6px 0 6px 0;
   font-size: 1.1rem;
-  border-width: 0px;
-  padding: 3px 0 4px 0;
-  color: #333;
-  margin-top: 5px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #b68A89;
 }
 
 input.button:hover {
-  background-color: #efefef;
+  border: none;
+	border-radius: 2px;
+	box-shadow: 3px 3px 12px #999;
+	background: #fff;
+	color: #333;
+}
+
+.button {
+  text-align: center;
+  margin-right: 15px;
 }
 
 .footer-top p.p-seo {
@@ -497,6 +517,7 @@ input.button:hover {
 .list-footer {
   display: flex;
   align-content: space-between;
+  margin-top: 20px;
 }
 
 .list-footer a {
