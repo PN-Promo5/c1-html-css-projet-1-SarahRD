@@ -3,7 +3,7 @@
 
   .container {
     width: 100%;
-    padding: 0 2px 0 2px;
+    padding: 0px;
   }
 
 /*NAV BAR*/
@@ -71,21 +71,22 @@ h1 {
 }
 
 .btn:nth-child(1) {
-  margin: 0px 0 10px 0px;
+  margin: 0px 20px 10px 20px;
   padding: 12px 54px 12px 54px;
 }
 
 .btn:nth-child(2) {
-  margin: 0px;
+  margin: 0px 20px 10px 20px;
   color: #333;
 }
 
 .btn {
-  font-size: 0.79em;
+  font-size: 0.9em;
 }
 
 .btn-line {
   margin-top: 50px;
+  flex-direction: column;
 }
 
 /*BANDEAU PROMO*/
