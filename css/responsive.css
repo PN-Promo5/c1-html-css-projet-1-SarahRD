@@ -170,7 +170,7 @@ h2 {
   display: none;
 }
 
-/*ARTICLES*/
+/*PRODUCTS*/
 h4 {
   font-weight: 650;
   font-size: 1.5rem;
@@ -180,11 +180,11 @@ h4 {
 
 .product-row {
   flex-direction: column;
-  margin-left: 12px
+  align-content: space-evenly;
 }
 
 .product {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 13px;
 }
 
 /*ICONS*/
@@ -266,6 +266,7 @@ p.form-title {
 .link-social-network img {
   height: 40px;
   margin: 20px 20px 10px 20px;
+  font-size: 0.1rem;
 }
 
 .list-footer {
